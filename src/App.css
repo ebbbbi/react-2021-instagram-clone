@@ -1,0 +1,78 @@
+* {
+  margin:0;
+}
+
+.app{
+  background-color: #fafafa;
+  height: 100vh;
+}
+.app__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+  padding:20px;
+  object-fit: contain;
+  border-bottom:1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.app__headerImage{
+  max-width:200px;
+  height:35px;
+  padding-right: 5px;
+  padding-top:10px;
+}
+
+.app__loginContainer {
+  display:flex;
+}
+
+.app__loginContainer > Button{
+  border:1px solid #eee;
+  margin-right:5px;
+}
+
+.app__posts{
+  padding:20px;
+}
+.app__signup{
+ display: flex;
+ flex-direction: column;
+}
+.profile__image img{
+  width:50px;
+  height:auto;
+  border-radius: 25px;
+
+}
+
+.img_logo img{
+  width: 50%;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.img_profile {
+
+  width: 50px;
+  border-radius: 25px;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.modal_wrapper{
+  
+  max-width: 270px !important;
+}
+
+.editname__btn{
+  background-color: #eee !important;
+  width:100%;
+  margin-top:5px !important;
+}
+
+.editname__btn:hover{
+  background-color: #ddd !important;
+}

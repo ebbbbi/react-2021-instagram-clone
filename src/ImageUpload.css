@@ -1,0 +1,40 @@
+.imageUpload{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width:480px;
+    padding:10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom:10px;
+    margin-top:10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+
+}
+
+.imageUpload__progress{
+    width:100%;
+}
+
+.imageUpload__caption{
+    margin-bottom:20px;
+    height:40px;
+}
+
+.imageUpload__file{
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+.imageUpload button{
+    color: #fff;
+    background-color: #333;
+    border:1px solid #333;
+}
+
+.imageUpload button:hover{
+    color: #fff;
+    background-color: #555;
+
+}
